@@ -1,7 +1,5 @@
 package br.com.vinjustino.todo.domain;
 
-import jdk.jfr.Name;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -40,7 +38,7 @@ public class Todo implements Serializable {
     }
 
     // Criação dos métodos acessores.
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
